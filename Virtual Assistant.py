@@ -123,7 +123,7 @@ if __name__ == '__main__':
             try:
                 speak("what should i say")
                 content = myCommand()
-                to = "akthesihag007@gmail.com"
+                to = "akshay@gmail.com"
                 sendEmail(to , content)
                 speak("email has been sent")
 
